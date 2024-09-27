@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #top{
+            height: 10vh;
+            background-color: lightblue;
+
+        }
+        #wrap{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 10vh;
+            background-color: lightgray;
+        }
+        #two{
+            width: 50%;
+            background-color: aqua;
+            height: 100%;
+        }
+        #tre{
+            background-color: brown;
+            width: 50%;
+            height: 100%;
+        }
+        #wrap2{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 40vh;
+            background-color: rgb(204, 39, 39);
+        }
+        #five{
+            width: 50%;
+            background-color: rgb(102, 204, 255);
+            height: 100%;
+        }
+        #wrap3{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+            background-color: rgb(204, 204, 204);
+            width: 50%;
+            flex-direction: column;
+        }
+        #four{
+            background-color: rgb(255, 153, 51);
+            width: 100%;
+            height: 25%;
+        }
+        #six{
+            background-color: rgb(102, 153, 0);
+            width: 100%;
+            height: 75%;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            background-color: yellow;
+            text-align: start;
+            height: 40vh;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: start;
+        }
+        th{
+            background-color: rgb(85, 85, 37);
+            height: 25%;
+        }
+        td{
+            height: 75%;
+            background-color: lightgray;
+        }
+    </style>
+    <div id="top"></div>
+    <div id="wrap">
+        <div id="two"></div>
+        <div id="tre"></div>
+    </div>
+    <div id="wrap2">
+        <div id="five"></div>
+        <div id="wrap3">
+            <div id="four"></div>
+            <div id="six"></div>
+        </div>
+    </div>
+    <table>
+        <tr>
+            <th>One</th>
+            <th>Two</th>
+            <th>Three</th>
+        </tr>
+        <tr>
+            <td>Four</td>
+            <td>Five</td>
+            <td>Six</td>
+        </tr>
+    </table>
+</body>
+</html>
